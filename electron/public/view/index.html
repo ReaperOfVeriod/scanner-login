@@ -15,16 +15,16 @@
     <button id="btn-close" type="button" class="btn btn-primary">exit</button>
     <button id="getDate" type="button" class="btn btn-primary">Datum</button>
     <h1 class="text-white" id="dateText"></h1>
-    
+    <label class="text-white" for="firstnameInput">Firstname:</label>
       <div class="row">
         <div class="col-sm">
-                <form onsubmit="return false">
-                  <label class="text-white" for="firstnameInput">Firstname:</label>
-                  <input class="form-control" type="text" id="firstnameInput">
-                  <button id="getUserData" type="button" class="btn btn-primary">Submit</button>
+                <form onsubmit="event.preventDefault();">
+                    <input class="form-control" type="text" id="firstnameInput">
+        </div>
+        <div class="col-sm">
+                    <button id="getUserData" type="button" class="btn btn-primary">Submit</button>
                 </form>
         </div>
-        <div class="col-sm"></div>
         <div class="col-sm"></div>
         <div class="col-sm"></div>
         <div class="col-sm"></div>
