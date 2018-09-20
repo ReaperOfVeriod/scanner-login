@@ -1,0 +1,17 @@
+{
+  "name": "scanner",
+  "version": "0.0.0",
+  "description": "scannerstuffs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "ReaperOfVeriod",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^2.0.8"
+  },
+  "dependencies": {
+    "mongoose": "^5.2.14"
+  }
+}
