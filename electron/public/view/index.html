@@ -8,13 +8,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Checkins</title>
   </head>
   <body class="bg-dark">
-    <h1 class="text-white">Hello, world!</h1>
+    <h1 class="text-white">Checkins</h1>
     <button id="btn-close" type="button" class="btn btn-primary">exit</button>
     <button id="getDate" type="button" class="btn btn-primary">Datum</button>
-    <h1 class="text-white" id="dateText"></h1>
+    <h5 class="text-white" id="dateText"></h5>
     <label class="text-white" for="firstnameInput">Firstname:</label>
       <div class="row">
         <div class="col-sm">
@@ -29,8 +29,8 @@
         <div class="col-sm"></div>
         <div class="col-sm"></div>
       </div>
-    
-    
+
+
     <table class="table table-dark">
       <thead>
         <tr>
@@ -49,6 +49,7 @@
     <script type="text/javascript">
         //show userData
         document.getElementById("getUserData").addEventListener("click", function (e) {
+          this.value.toLowerCase();
           UserData();
         });
         
